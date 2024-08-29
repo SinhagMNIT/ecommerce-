@@ -10,7 +10,7 @@ const getDefaultCart = () => {
 };
 
 const ShopContextProvider = (props) => {
-  const url= 'http://localhost:4000'
+  const url= 'https://ecommerce-backend-ygl4.onrender.com'
   const [all_product, setAllProduct] = useState([]);
 
   const [cartItems, setCartItems] = useState(getDefaultCart());
