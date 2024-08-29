@@ -1,0 +1,114 @@
+.loginSignup {
+  width: 100%;
+  height: 112vh;
+  background: #fce3fe;
+  padding-top: 100px;
+}
+.loginSignupContainer {
+  width: 500px;
+  height: 460px;
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+  margin-top: -37px;
+  border-radius: 12px;
+}
+h1 {
+  margin: 20px 0;
+}
+.loginSignUpFields {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+}
+.loginSignUpFields input {
+  width: 100%;
+  height: 50px;
+  padding-left: 18px;
+  border: 1px solid #c9c9c9;
+  color: #5c5c5c;
+  font-size: 18px;
+}
+.loginbtn {
+  width: 522px;
+  height: 50px;
+  color: white;
+  background: #ff4141;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.loginSignUpLogin {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.loginSignUpLogin span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+.loginSignUpAgree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 15px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: center;
+}
+@media (max-width: 1280px) {
+  .loginSignup {
+    padding-top: 50px;
+  }
+  .loginSignupContainer {
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 12px;
+  }
+  .loginSignupContainer h1 {
+    margin: 10px;
+  }
+  .loginSignUpFields {
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .loginSignUpFields input {
+    height: 56px;
+    width: 93%;
+  }
+  .loginSignupContainer button {
+    width: 100%;
+  }
+  .loginSignUpLogin {
+    font-size: 16px;
+  }
+  .loginSignUpAgree {
+    font-size: 14px;
+    gap: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .loginSignupContainer {
+    padding: 20px 30px;
+  }
+  .loginSignupContainer h1 {
+    font-size: 24px;
+  }
+  .loginSignUpFields {
+    margin-top: 20px;
+  }
+  .loginSignUpFields {
+    margin-top: 20px;
+  }
+  .loginSignUpFields input {
+    height: 50px;
+  }
+  .loginSignupContainer button{
+    height:50px ;
+    font-size: 16px;
+  }
+}
